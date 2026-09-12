@@ -1,0 +1,102 @@
+/* ===================================================
+   PALETA CUTE INSPIRADA EN CANVA
+   =================================================== */
+
+/* Tipografía global y fondo general en rosa pastel suave */
+body {
+  font-family: 'Fredoka', sans-serif;
+  padding-top: 56px;
+  background-color: #FFF0F5;
+  color: #5D4037;
+}
+
+/* 1. Botones estilo fresa pastel */
+.btn-primary {
+  background-color: #FF85A1;
+  border-color: #FF5C8D;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #FF5C8D;
+  border-color: #E03E70;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary {
+  color: #FF5C8D;
+  border-color: #FF85A1;
+}
+
+.btn-outline-primary:hover {
+  background-color: #FF85A1;
+  border-color: #FF85A1;
+  color: #FFFFFF;
+}
+
+/* Botones con bordes suaves redonditos */
+.round-btn {
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+/* 2. Navbar con línea decorativa rosa */
+.navbar {
+  border-bottom: 4px solid #FF85A1;
+}
+
+/* 3. Hero con fondo de rayas suaves (estilo Canva) */
+.seccion-hero {
+  background: repeating-linear-gradient(
+    45deg,
+    #FFE4E1,
+    #FFE4E1 15px,
+    #FFF0F5 15px,
+    #FFF0F5 30px
+  );
+  color: #4A2E2B;
+}
+
+.seccion-hero h1,
+.seccion-hero p {
+  color: #4A2E2B;
+}
+
+.cute-img {
+  border: 5px solid #FFFFFF;
+}
+
+/* 4. Tarjetas suaves y efecto flotante */
+.cute-card {
+  border-radius: 20px;
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cute-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(255, 133, 161, 0.3) !important;
+}
+
+/* Alertas e insumos de formulario */
+.cute-alert {
+  border-radius: 15px;
+  border: 2px dashed #FFD54F;
+  background-color: #FFF9C4;
+}
+
+.round-input {
+  border-radius: 15px;
+  border: 1px solid #FF85A1;
+}
+
+.round-input:focus {
+  border-color: #FF5C8D;
+  box-shadow: 0 0 0 0.25rem rgba(255, 133, 161, 0.3);
+}
+
+.section-title {
+  color: #C71585;
+  font-weight: 600;
+}
